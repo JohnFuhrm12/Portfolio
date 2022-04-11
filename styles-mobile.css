@@ -1,0 +1,645 @@
+html, body {
+    height: 100%;
+    margin: 0;
+   }
+
+.navbar-top {
+    color: aqua;
+    background-color: black;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 60px;
+    justify-content: space-between;
+    border-bottom: 4px solid;
+    border-color: aqua;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-top-left {
+    padding-top: 15px;
+}
+
+.navbar-top a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.navbar-top a:hover {
+    color: rgb(0, 157, 209);
+}
+
+.nav-top-right {
+    margin-right: 50px;
+}
+
+.nav-top-right li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.github-logo {
+    height: 1em;
+    width: 50px;
+}
+
+/*/
+/*/
+
+.first-block {
+    background-color: rgb(95, 95, 95);
+    padding-top: 2px;
+    text-align: center;
+}
+
+.first-block h1 {
+    color: aqua;
+    font-size: 70px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.first-block h2 {
+    color: black;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.profile-pic {
+    margin-top: 80px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+    animation: bounce 3s infinite alternate;
+    z-index: 0;
+    margin-bottom: 0px;
+}
+
+.language-pic {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    animation: bounce2 2s infinite alternate;
+    z-index: 0;
+}
+
+.language-pic2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: half-rotate 4s infinite alternate;
+    z-index: 0;
+}
+
+.language-pic3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: bounce2 2s infinite alternate;
+    z-index: 0;
+}
+
+.language-pic4 {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: full-rotate 4s infinite alternate;
+    z-index: 0;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes half-rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+@keyframes full-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*/
+/*/
+
+.button-div {
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+}
+
+.down-button {
+    background-color: black;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.down-button:hover {
+    border-color: rgb(22, 158, 158);
+}
+
+.down-button-image {
+    height: 30px;
+    width: 30px;
+}
+
+/*/
+/*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px black;
+   background: rgb(25, 26, 25);
+}
+
+::-webkit-scrollbar-thumb {
+  background: aqua;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 157, 209);
+}
+
+/*/
+/*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px black;
+   background: rgb(25, 26, 25);
+}
+
+::-webkit-scrollbar-thumb {
+  background: aqua;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 157, 209);
+}
+
+/*/
+/*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px black;
+   background: rgb(25, 26, 25);
+}
+
+::-webkit-scrollbar-thumb {
+  background: aqua;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 157, 209);
+}
+
+/*/
+/*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px black;
+   background: rgb(25, 26, 25);
+}
+
+::-webkit-scrollbar-thumb {
+  background: aqua;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 157, 209);
+}
+
+/*/
+/*/
+
+.second-block {
+    background-color: rgb(95, 95, 95);
+    padding-top: 2px;
+    padding-bottom: 50px;
+}
+
+.second-block h1 {
+    background-color: rgb(67, 67, 67);
+    text-align: center;
+    color: aqua;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.about-block {
+    background-color: rgb(67, 67, 67);
+    color: white;  
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 2px;
+    padding-left: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 6px;
+}
+
+/*/
+/*/
+
+.third-block {
+    background-color: rgb(95, 95, 95);
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+
+.projects {
+    background-color: rgb(67, 67, 67);
+    padding-top: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.projects h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 70px;
+}
+
+.projects h2 {
+    text-align: center;
+    color: aqua;
+    font-size: 40px;
+    margin: 15px;
+}
+
+.projects p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.container {
+    position: relative;
+}
+
+.project-pic  {
+    width: 650px;
+    height: 400px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    border-radius: 6px;
+    transition: .5s ease;
+}
+
+.container:hover .project-pic {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.text {
+    background-color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 6px;
+  }
+
+.text a {
+    color: white;
+    text-decoration: none;
+}
+
+/*/
+/*/
+
+.nav-bottom {
+    background-color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 4px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.top-button {
+    background-color: black;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.top-button:hover {
+    transform: translate(0px, -4px);
+    border-color: rgb(22, 158, 158);
+    border-width: 3px;
+}
+
+.top-button-image {
+    height: 30px;
+    width: 30px;
+}
+
+/*/
+
+About Page
+
+/*/
+
+
+
+/*/
+
+Contact Page
+
+/*/
+
+.first-block-contact {
+    background-color: rgb(95, 95, 95);
+    padding-top: 2px;
+    text-align: center;
+}
+
+.first-block-contact h1 {
+    color: aqua;
+    font-size: 70px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.first-block-contact h2 {
+    color: black;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/*/
+/*/
+
+.second-block-contact {
+    background-color: rgb(95, 95, 95);
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.second-block-contact h1 {
+    background-color: rgb(67, 67, 67);
+    text-align: center;
+    color: aqua;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.second-block-contact h2 {
+    background-color: rgb(67, 67, 67);
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.third-block-contact {
+    background-color: rgb(95, 95, 95);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.third-block-contact h1 {
+    background-color: rgb(67, 67, 67);
+    text-align: center;
+    color: aqua;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.third-block-contact h1:hover {
+    color: rgb(0, 157, 209);
+}
+
+.third-block-contact h2 {
+    background-color: rgb(67, 67, 67);
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.third-block-contact h2:hover {
+    color: rgb(21, 21, 22);
+}
+
+.third-block-contact a {
+    text-decoration: none;
+}
+
+.about-block-contact {
+    background-color: rgb(67, 67, 67);
+    color: white;  
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 2px;
+    padding-left: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*/
+/*/
+
+.contact-form-block {
+    background-color: rgb(95, 95, 95);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.contact-form-block h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 70px;
+}
+
+.contact-form-background {
+    background-color: rgb(67, 67, 67);
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 40px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.contact-form textarea {
+    background-color: rgb(67, 67, 67);
+    display: block;
+    margin-left: 17%;
+    margin-right: 17%;
+    min-width: 400px;
+    min-height: 200px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aqua;
+    resize: none;
+    outline: none;
+}
+
+.email-button {
+    background-color: rgb(67, 67, 67);
+    width: 160px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+    border-width: 4px;
+    font-size: 20px;
+    margin: 40px;
+    font-weight: bold;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.email-button:hover {
+    background-color: aqua;
+    transition: 1s ease;
+}
+
+#name {
+    background-color: rgb(67, 67, 67);
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin-top: 50px;
+    color: aqua;
+    outline: none;
+}
+
+#email {
+    background-color: rgb(67, 67, 67);
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin-top: 20px;
+    color: aqua;
+    outline: none;
+}
