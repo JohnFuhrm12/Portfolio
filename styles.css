@@ -523,8 +523,8 @@ Contact Page
 .contact-form textarea {
     background-color: rgb(67, 67, 67);
     display: block;
-    margin-left: 21%;
-    margin-right: 21%;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 400px;
     min-height: 200px;
     border-style: solid;
