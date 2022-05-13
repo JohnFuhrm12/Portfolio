@@ -286,6 +286,8 @@ html, body {
     color: white;
     font-size: 30px;
     margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .container {
     position: relative;
@@ -332,6 +334,15 @@ html, body {
 .text a {
     color: white;
     text-decoration: none;
+}
+
+.github-link {
+    text-decoration: none;
+    color: aqua;
+}
+
+.github-link:hover {
+    color: rgb(25, 199, 199);
 }
 
 /*/
