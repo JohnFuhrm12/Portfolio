@@ -439,7 +439,7 @@ Contact Page
 .second-block-contact h2 {
     background-color: rgb(67, 67, 67);
     text-align: center;
-    color: black;
+    color: aqua;
     font-size: 70px;
     margin-bottom: 0px;
     margin-left: 20%;
@@ -467,7 +467,7 @@ Contact Page
 .third-block-contact h2 {
     background-color: rgb(67, 67, 67);
     text-align: center;
-    color: black;
+    color: aqua;
     font-size: 70px;
     margin-bottom: 0px;
     margin-left: 20%;
@@ -475,7 +475,7 @@ Contact Page
 }
 
 .third-block-contact h2:hover {
-    color: rgb(21, 21, 22);
+    color: rgb(0, 157, 209);
 }
 
 .third-block-contact a {
